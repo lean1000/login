@@ -14,7 +14,7 @@
 <body>
     <div class="container">
         <h2 class="text-center">Cadastro</h2>
-        <form action="#" method="POST">
+        <form action="auxcadastro.php" method="POST">
 
             <input type="text" id="usuario" name="usuario" class="form-control" placeholder="Usuário" required>
 

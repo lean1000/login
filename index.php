@@ -26,7 +26,7 @@
 
             <a href="cadastro.php" class="links">cadastre-se</a>
             <a href="#" class="links">/</a>
-            <a href="recuperarSenha.php" class="links">esqueseu a senha ?</a>
+            <a href="esqueci_senha.php" class="links">esqueseu a senha ?</a>
        
         </div>
         <input type="submit" value="Entrar">

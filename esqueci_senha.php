@@ -12,7 +12,7 @@
 </head>
 
 <body>
-    <form action="auxlogin.php" method="post">
+    <form action="auxsenha.php" method="post">
         <h1>Recuperar Senha</h1>
         <h2>Digite seu cpf para alterar a senha.</h2>
         <input type="text" name="cpf" placeholder="CPF">
@@ -21,7 +21,7 @@
             <input type="password" name="password" placeholder="senha nova" id="inputPassword">
         </div>
         <div class="password-container">
-            <input type="password" name="password" placeholder="confirmar senha" id="inputPassword">
+            <input type="password" name="password2" placeholder="confirmar senha" id="inputPassword">
             <span class="eye-icon" id="togglePassword" onclick="togglePassword()">
                 <i class="bi bi-eye-slash" id="eyeIcon"></i>
             </span>

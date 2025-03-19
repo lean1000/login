@@ -36,8 +36,8 @@
                         <td><?= $linha['usuario'] ?></td>
                         <td class="text-center">
                             <a class="btn btn-abrir" href="ficha.php?id=<?= $linha['id'] ?>">Abrir</a>
-                            <a class="btn btn-editar" href="formulario-editar.php?id_aluno_alterar=<?= $linha['id'] ?>">Editar</a>
-                            <a class="btn btn-excluir" href="apagarUser.php?<?= $linha['id'] ?>">Excluir</a>
+                            <a class="btn btn-editar" href="editar.php?id_aluno_alterar=<?= $linha['id'] ?>">Editar</a>
+                            <a class="btn btn-excluir" href="apagarUser.php?id=<?= $linha['id'] ?>">Excluir</a>
                         </td>
                     </tr>
                 <?php } ?>
